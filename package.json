@@ -19,5 +19,8 @@
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0"
   }
 }

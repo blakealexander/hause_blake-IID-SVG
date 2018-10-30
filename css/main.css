@@ -1,3 +1,87 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
 
+body {
+  height: 100%;
+}
+
+.text-container {
+  margin: 0 auto;
+  padding: 5em;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+/*-------------------------------------- h1*/
+@media screen and (min-width: 601px) {
+  div.text-container h1 {
+    font-size: 8vw;
+  }
+}
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.text-container h1 {
+    font-size: 8vw;
+  }
+}
+/*-----------------------------------------------paragraph*/
+@media screen and (min-width: 601px) {
+  div.text-container p {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.text-container p {
+    font-size: 5vw;
+  }
+}
+#bg-img {
+  background: url("../images/svg_poster_bg.png") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  min-height: 7167px;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.bodyScroll {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.scubaDiver1 {
+  height: 0.5em;
+  position: relative;
+  top: 40em;
+  right: 10em;
+}
+
+.scubaDiver2 {
+  height: 0.5em;
+  position: relative;
+  top: 100em;
+  right: 15em;
+}
+
+.freeDiver {
+  height: 0.5em;
+  position: relative;
+  top: 100em;
+  right: 15em;
+}
 
 /*# sourceMappingURL=main.css.map */
