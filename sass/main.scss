@@ -3,39 +3,29 @@
 
 
 html {
-    height: 100%;
     box-sizing: border-box;
 }
 
-body{
-    // background: url(../images/svg_poster_bg.png)no-repeat;
-    // -webkit-background-size: cover;
-    // -moz-background-size: cover;
-    // -o-background-size: cover;
-    // background-size: auto 100%;
-    height: 100%;
-    
+body {
+    background: url(../images/svg_poster_bg.png);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
 
-
-// h1 {
-//     font-size: 8vw;
-// }
-
-// p {
-//     font-size: 3vw;
-// }
 
 .text-container{
     margin: 0 auto;
     padding: 5em;
     text-align: center;
 }
+/*-------------------------------------- h1*/
 
 h1 {
    color: white;
 }
-/*-------------------------------------- h1*/
+
 @media screen and (min-width: 601px) {
     div.text-container h1 {
       font-size: 8vw;
@@ -63,65 +53,70 @@ h1 {
     }
   }
 
-#bg-img {
+// #bg-img {
 
-    background: url('../images/svg_poster_bg.png') no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    min-height: 7167px;
+//     // background: url('../images/svg_poster_bg.png') no-repeat;
+//     // background-size: cover;
+//     // background-repeat: no-repeat;
+//     // position: absolute;
+//     // height: 100%;
+//     // width: 100%;
+//     // min-height: 7167px;
 
     
-}
+// }
+
 
 // @media screen and (min-width: 601px) {
-//     section#bg-img{
-//       width: 100vw;
+//     div.wrapper#bg_img {
+//       font-size: 2vw;
 //     }
 //   }
   
-//   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
 //   @media screen and (max-width: 600px) {
-//     section#bg-img{
-//       width: 4vw;
+//     div.wrapper#bg_img {
+//       font-size: 5vw;
 //     }
 //   }
 
+
 .wrapper {
-    display: grid;
-    grid-gap: 1em;
-    grid-auto-rows: minmax(100px, auto);
+    position: relative;
 }
-
-.bodyScroll {
-    height: 100vh;
-    overflow-x:hidden;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-  }
-
 
 .scubaDiver1{
    height: 0.5em;
    position: relative;
-   top: 40em;
-   right: 10em;
+   top: 500px;
 }
 
 .scubaDiver2{
     height: 0.5em;
     position: relative;
-    top: 100em;
-    right: 15em;
+    top: 1400px;
  }
 
  .freeDiver{
     height: 0.5em;
     position: relative;
-    top: 100em;
-    right: 15em;
+    top: 3000;
  }
 
+ .whale{
+    height: 0.5em;
+    position: relative;
+    top: 5500px;
+ }
 
+ .submarine{
+    height: 4em;
+    position: relative;
+    top: 6000px;
+ }
+
+ .scubaDiver3{
+    height: 0.5em;
+    position: relative;
+    top: 4500px;
+ }
