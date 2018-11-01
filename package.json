@@ -31,6 +31,7 @@
     "gulp-header": "^2.0.5",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
-    "run-sequence": "^2.2.1"
+    "run-sequence": "^2.2.1",
+    "wowjs": "^1.1.3"
   }
 }

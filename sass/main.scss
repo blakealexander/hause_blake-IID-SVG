@@ -3,22 +3,56 @@
 
 
 html {
-    box-sizing: border-box;
+    // box-sizing: border-box;
+    // background: url(../images/svg_poster_bg.png);
+    // background-color: #ffffff;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center top;
+    
+    height: 100%;
 }
 
 body {
-    background: url(../images/svg_poster_bg.png);
-    background-color: blue;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
+  // box-sizing: border-box;
+    // background: url(../images/svg_poster_bg.png);
+    background-color: #ffffff;
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // background-position: center top;
+    height: 100vh;
+    width: 100vw;
+    
 }
 
+// .wow{visibility: hidden;}
+
+
+.sky {
+  background: url(../images/sky.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
 
 .text-container{
     margin: 0 auto;
     padding: 5em;
+    color: #ffffff;
     text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+  div.text-container{
+    padding: 5em;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.text-container{
+    padding: 2em;
+  }
 }
 /*-------------------------------------- h1*/
 
@@ -49,7 +83,7 @@ h1 {
 
   @media screen and (max-width: 600px) {
     div.text-container p {
-      font-size: 5vw;
+      font-size: 4vw;
     }
   }
 
@@ -85,38 +119,226 @@ h1 {
     position: relative;
 }
 
-.scubaDiver1{
-   height: 0.5em;
-   position: relative;
-   top: 500px;
+// .scubaDiver1{
+//    height: 5%;
+//    top: 5em;
+//    right: 10px;
+// }
+
+// @media screen and (min-width: 601px) {
+//   div.wrapper div.scubaDiver1{
+//     position: relative;
+//     height: 1%;
+//     top: 20em;
+//     right: 200px;
+//   }
+// }
+
+// /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+// @media screen and (max-width: 600px) {
+//   div.wrapper div.scubaDiver1{
+//     position: relative;
+//     height: 1%;
+//     top: 3em;
+//     right: 50px;
+//   }
+// }
+.water{
+  background: url(../images/water.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // height: 6297px;
+  background-position: center;
+  box-sizing: border-box;
+  padding-top: 50px;
 }
 
-.scubaDiver2{
-    height: 0.5em;
-    position: relative;
-    top: 1400px;
+@media screen and (min-width: 601px) {
+  div.water{
+   height: 10000px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.water{
+  height: 2500px;
+  }
+}
+
+// PLAY WITH THIS SVG TO FIND THE PERFECT BALANCE
+
+.depthLine {
+  
+  z-index: 9;
+  position: absolute;
+  right: 95vw;
+  bottom: 1vw;
+
+}
+
+.depthLine img{
+  height: 100%;
+}
+
+@media screen and (min-width: 601px) {
+  div.depthLine{
+   height: 10000px;
+   width: 10%;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.depthLine{
+  height: 2500px;
+  width: 10%;
+  }
+}
+
+.scubaDiver1{
+    height: 30%;
+    width: 70%;
+    position: absolute;
+    bottom: 475vw;
+    left: 0.5vw;
+    z-index: 9;
+    // top: 1400px;
  }
 
+
+ .scubaDiver2{
+  height: 30%;
+  width: 100%;
+  position: absolute;
+  bottom: 400vw;
+  left: 1vw;
+  z-index: 9;
+  // top: 1400px;
+}
  .freeDiver{
-    height: 0.5em;
-    position: relative;
-    top: 3000;
- }
-
- .whale{
-    height: 0.5em;
-    position: relative;
-    top: 5500px;
- }
-
- .submarine{
-    height: 4em;
-    position: relative;
-    top: 6000px;
+  height: 30%;
+  width: 100%;
+  position: absolute;
+  bottom: 325vw;
+  left: 1vw;
+  z-index: 9;
  }
 
  .scubaDiver3{
-    height: 0.5em;
-    position: relative;
-    top: 4500px;
+  height: 30%;
+  width: 70%;
+  position: absolute;
+  bottom: 225vw;
+  left: 45vw;
+  z-index: 9;
  }
+
+ .scubaDiver3Info{
+  background-color: rgba(235, 235, 235, 0.50);
+  color: #ffffff;
+  height: auto;
+  width: 40%;
+  position: absolute;
+  bottom: 450vw;
+  left: 20vw;
+  z-index: 9;
+  border-radius: 5px;
+ }
+
+ .scubaDiver3Info p {
+  padding: 5px;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.scubaDiver3Info p {
+    font-size: 2vw;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  div.scubaDiver3Info p {
+    font-size: 4vw;
+  }
+}
+ 
+
+ .whale{
+  height: 30%;
+  width: 50%;
+  position: absolute;
+  bottom: 125vw;
+  left: 12vw;
+  z-index: 9;
+ }
+
+ .whaleInfo{
+  background-color: rgba(235, 235, 235, 0.50);
+  color: #ffffff;
+  height: auto;
+  width: 60%;
+  position: absolute;
+  bottom: 375vw;
+  right: 16vw;
+  z-index: 9;
+  border-radius: 5px;
+ }
+
+ .whaleInfo p {
+  padding: 5px;
+}
+
+ @media screen and (min-width: 601px) {
+  div.whaleInfo p {
+    font-size: 2vw;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  div.whaleInfo p {
+    font-size: 4vw;
+  }
+}
+
+ .submarine{
+  height: 30%;
+  width: 30%;
+  position: absolute;
+  bottom: 50vw;
+  left: 12vw;
+  z-index: 9;
+  animation-duration: 3s;
+  animation-delay: 2s;
+ }
+
+ .SubmarineInfo {
+   background-color: rgba(235, 235, 235, 0.50);
+   color: #ffffff;
+   height: auto;
+   width: 40%;
+   position: absolute;
+   bottom: 225vw;
+   right: 12vw;
+   z-index: 9;
+   border-radius: 5px;
+ }
+
+ .SubmarineInfo p {
+   padding: 5px;
+ }
+
+ @media screen and (min-width: 601px) {
+  div.SubmarineInfo p {
+    font-size: 2vw;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  div.SubmarineInfo p {
+    font-size: 4vw;
+  }
+}
