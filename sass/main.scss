@@ -25,320 +25,430 @@ body {
     
 }
 
+g #Bubbles1 {
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+g #Bubbles2 {
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+
+g #Bubbles3 {
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+g #Bubbles4 {
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+
+g #ScubaDiver1 {
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+
 // .wow{visibility: hidden;}
 
 
-.sky {
-  background: url(../images/sky.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-}
-
-.text-container{
-    margin: 0 auto;
-    padding: 5em;
-    color: #ffffff;
-    text-align: center;
-}
-
-@media screen and (min-width: 601px) {
-  div.text-container{
-    padding: 5em;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
-  div.text-container{
-    padding: 2em;
-  }
-}
-/*-------------------------------------- h1*/
-
-h1 {
-   color: white;
-}
-
-@media screen and (min-width: 601px) {
-    div.text-container h1 {
-      font-size: 8vw;
-    }
-  }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
-    div.text-container h1 {
-      font-size: 8vw;
-    }
-  }
-
-/*-----------------------------------------------paragraph*/
-  @media screen and (min-width: 601px) {
-    div.text-container p {
-      font-size: 2vw;
-    }
-  }
-  
-
-  @media screen and (max-width: 600px) {
-    div.text-container p {
-      font-size: 4vw;
-    }
-  }
-
-// #bg-img {
-
-//     // background: url('../images/svg_poster_bg.png') no-repeat;
-//     // background-size: cover;
-//     // background-repeat: no-repeat;
-//     // position: absolute;
-//     // height: 100%;
-//     // width: 100%;
-//     // min-height: 7167px;
-
-    
+// .sky {
+//   background: url(../images/sky.svg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center top;
 // }
 
+// .text-container{
+//     margin: 0 auto;
+//     padding: 5em;
+//     color: #ffffff;
+//     text-align: center;
+// }
 
 // @media screen and (min-width: 601px) {
-//     div.wrapper#bg_img {
+//   div.text-container{
+//     padding: 5em;
+//   }
+// }
+
+// /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+// @media screen and (max-width: 600px) {
+//   div.text-container{
+//     padding: 2em;
+//   }
+// }
+// /*-------------------------------------- h1*/
+
+// h1 {
+//    color: white;
+// }
+
+// @media screen and (min-width: 601px) {
+//     div.text-container h1 {
+//       font-size: 8vw;
+//     }
+//   }
+  
+//   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+//   @media screen and (max-width: 600px) {
+//     div.text-container h1 {
+//       font-size: 8vw;
+//     }
+//   }
+
+// /*-----------------------------------------------paragraph*/
+//   @media screen and (min-width: 601px) {
+//     div.text-container p {
 //       font-size: 2vw;
 //     }
 //   }
   
 
 //   @media screen and (max-width: 600px) {
-//     div.wrapper#bg_img {
-//       font-size: 5vw;
+//     div.text-container p {
+//       font-size: 4vw;
 //     }
 //   }
 
+// // #bg-img {
 
-.wrapper {
-    position: relative;
-}
+// //     // background: url('../images/svg_poster_bg.png') no-repeat;
+// //     // background-size: cover;
+// //     // background-repeat: no-repeat;
+// //     // position: absolute;
+// //     // height: 100%;
+// //     // width: 100%;
+// //     // min-height: 7167px;
 
-// .scubaDiver1{
-//    height: 5%;
-//    top: 5em;
-//    right: 10px;
+    
+// // }
+
+
+// // @media screen and (min-width: 601px) {
+// //     div.wrapper#bg_img {
+// //       font-size: 2vw;
+// //     }
+// //   }
+  
+
+// //   @media screen and (max-width: 600px) {
+// //     div.wrapper#bg_img {
+// //       font-size: 5vw;
+// //     }
+// //   }
+
+
+// .wrapper {
+//     position: relative;
+// }
+
+// // .scubaDiver1{
+// //    height: 5%;
+// //    top: 5em;
+// //    right: 10px;
+// // }
+
+// // @media screen and (min-width: 601px) {
+// //   div.wrapper div.scubaDiver1{
+// //     position: relative;
+// //     height: 1%;
+// //     top: 20em;
+// //     right: 200px;
+// //   }
+// // }
+
+// // /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+// // @media screen and (max-width: 600px) {
+// //   div.wrapper div.scubaDiver1{
+// //     position: relative;
+// //     height: 1%;
+// //     top: 3em;
+// //     right: 50px;
+// //   }
+// // }
+// .water{
+//   background: url(../images/water.svg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   position: relative;
+//   // height: 6297px;
+//   background-position: center;
+//   box-sizing: border-box;
+//   padding-top: 50px;
 // }
 
 // @media screen and (min-width: 601px) {
-//   div.wrapper div.scubaDiver1{
-//     position: relative;
-//     height: 1%;
-//     top: 20em;
-//     right: 200px;
+//   div.water{
+//    height: 5000px;
 //   }
 // }
 
 // /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 // @media screen and (max-width: 600px) {
-//   div.wrapper div.scubaDiver1{
-//     position: relative;
-//     height: 1%;
-//     top: 3em;
-//     right: 50px;
+//   div.water{
+//   height: 3000px;
 //   }
 // }
-.water{
-  background: url(../images/water.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  // height: 6297px;
-  background-position: center;
-  box-sizing: border-box;
-  padding-top: 50px;
-}
 
-@media screen and (min-width: 601px) {
-  div.water{
-   height: 10000px;
-  }
-}
+// // PLAY WITH THIS SVG TO FIND THE PERFECT BALANCE
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
-  div.water{
-  height: 2500px;
-  }
-}
-
-// PLAY WITH THIS SVG TO FIND THE PERFECT BALANCE
-
-.depthLine {
+// .depthLine {
   
-  z-index: 9;
-  position: absolute;
-  right: 95vw;
-  bottom: 1vw;
+//   z-index: 9;
+//   position: absolute;
+//   right: 70vw;
+//   top: 5px;
+//   height: 100%;
+//   width: 10%; 
+//   img {
+//     max-height: 5000px;
+//   }
 
-}
+// }
 
-.depthLine img{
-  height: 100%;
-}
+// // .depthLine img{
+// //   height: 100%;
+// // }
 
-@media screen and (min-width: 601px) {
-  div.depthLine{
-   height: 10000px;
-   width: 10%;
-  }
-}
+// @media screen and (min-width: 601px) {
+//   div.depthLine{
+//    max-height: 5000px;
+  
+//   }
+// }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
-  div.depthLine{
-  height: 2500px;
-  width: 10%;
-  }
-}
+// // /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+// // @media screen and (max-width: 600px) {
+// //   div.depthLine{
+// //   height: 3000px;
+// //   width: 10%;
+// //   }
+// // }
 
-.scubaDiver1{
-    height: 30%;
-    width: 70%;
-    position: absolute;
-    bottom: 475vw;
-    left: 0.5vw;
-    z-index: 9;
-    // top: 1400px;
- }
+// .scubaDiver1{
+//     height: auto;
+//     max-width: 200px;
+//     width: 100%;
+//     position: absolute;
+//     top: 200px;
+//     left: 10vw;
+//     z-index: 9;
+//     img {
+//       max-width: 100%;
+//     }
+//  }
 
-
- .scubaDiver2{
-  height: 30%;
-  width: 100%;
-  position: absolute;
-  bottom: 400vw;
-  left: 1vw;
-  z-index: 9;
-  // top: 1400px;
-}
- .freeDiver{
-  height: 30%;
-  width: 100%;
-  position: absolute;
-  bottom: 325vw;
-  left: 1vw;
-  z-index: 9;
- }
-
- .scubaDiver3{
-  height: 30%;
-  width: 70%;
-  position: absolute;
-  bottom: 225vw;
-  left: 45vw;
-  z-index: 9;
- }
-
- .scubaDiver3Info{
-  background-color: rgba(235, 235, 235, 0.50);
-  color: #ffffff;
-  height: auto;
-  width: 40%;
-  position: absolute;
-  bottom: 450vw;
-  left: 20vw;
-  z-index: 9;
-  border-radius: 5px;
- }
-
- .scubaDiver3Info p {
-  padding: 5px;
-}
+//  @media screen and (min-width: 601px) {
+//   .scubaDiver1{
+//     max-width: 500px;
+//   }
+// }
 
 
-@media screen and (min-width: 601px) {
-  div.scubaDiver3Info p {
-    font-size: 2vw;
-  }
-}
+//  .scubaDiver2{
+//   height: auto;
+//   max-width: 200px;
+//   width: 100%;
+//   position: absolute;
+//   top: 600px;
+//   left: 10vw;
+//   z-index: 9;
+//   img {
+//     max-width: 100%;
+//   }
+// }
+
+// @media screen and (min-width: 601px) {
+//   .scubaDiver2{
+//     top: 1000px;
+//     max-width: 500px;
+//   }
+// }
+
+//  .freeDiver{
+//   height: auto;
+//   max-width: 50px;
+//   width: 100%;
+//   position: absolute;
+//   top: 900px;
+//   left: 10vw;
+//   z-index: 9;
+//   img {
+//     max-width: 100%;
+//   }
+//  }
+
+//  @media screen and (min-width: 601px) {
+//   .freeDiver{
+//     top: 1500px;
+//     max-width: 100px;
+//   }
+// }
+
+//  .scubaDiver3{
+//   height: auto;
+//   max-width: 125px;
+//   width: 70%;
+//   position: absolute;
+//   top: 1500px;
+//   left: 45vw;
+//   z-index: 9;
+//   img {
+//     max-width: 100%;
+//   }
+//  }
+
+//  @media screen and (min-width: 601px) {
+//   .scubaDiver3{
+//     top: 2500px;
+//     max-width: 300px;
+//   }
+// }
+
+//  .whale{
+//   height: auto;
+//   max-width: 275px;
+//   width: 70%;
+//   position: absolute;
+//   top: 2000px;
+//   left: 20vw;
+//   z-index: 9;
+//   img {
+//     max-width: 100%;
+//   }
+//  }
+
+//  @media screen and (min-width: 601px) {
+//   .whale{
+//     top: 3000px;
+//     max-width: 500px;
+//     width: 50%;
+//   }
+// }
+
+//  .submarine{
+//   height: auto;
+//   max-width: 200px;
+//   width: 70%;
+//   position: absolute;
+//   top: 2400px;
+//   left: 12vw;
+//   z-index: 9;
+//   animation-duration: 3s;
+//   animation-delay: 2s;
+//   img {
+//     max-width: 100%;
+//   }
+//  }
+
+//  @media screen and (min-width: 601px) {
+//   .submarine{
+//     top: 3600px;
+//     max-width: 350px;
+//     width: 30%;
+//   }
+// }
+
+// // @media screen and (max-width: 601px) {
+// //   .submarine{
+// //     top: 3300px;
+// //     max-width: 200px;
+// //     width: 30%;
+// //   }
+// // }
 
 
-@media screen and (max-width: 600px) {
-  div.scubaDiver3Info p {
-    font-size: 4vw;
-  }
-}
+//  .scubaDiver3Info{
+//   background-color: rgba(235, 235, 235, 0.50);
+//   color: #ffffff;
+//   height: auto;
+//   width: 40%;
+//   position: absolute;
+//   bottom: 450vw;
+//   left: 20vw;
+//   z-index: 9;
+//   border-radius: 5px;
+//  }
+
+//  .scubaDiver3Info p {
+//   padding: 5px;
+// }
+
+
+// @media screen and (min-width: 601px) {
+//   div.scubaDiver3Info p {
+//     font-size: 2vw;
+//   }
+// }
+
+
+// @media screen and (max-width: 600px) {
+//   div.scubaDiver3Info p {
+//     font-size: 4vw;
+//   }
+// }
  
 
- .whale{
-  height: 30%;
-  width: 50%;
-  position: absolute;
-  bottom: 125vw;
-  left: 12vw;
-  z-index: 9;
- }
+//  .whaleInfo{
+//   background-color: rgba(235, 235, 235, 0.50);
+//   color: #ffffff;
+//   height: auto;
+//   width: 60%;
+//   position: absolute;
+//   bottom: 375vw;
+//   right: 16vw;
+//   z-index: 9;
+//   border-radius: 5px;
+//  }
 
- .whaleInfo{
-  background-color: rgba(235, 235, 235, 0.50);
-  color: #ffffff;
-  height: auto;
-  width: 60%;
-  position: absolute;
-  bottom: 375vw;
-  right: 16vw;
-  z-index: 9;
-  border-radius: 5px;
- }
+//  .whaleInfo p {
+//   padding: 5px;
+// }
 
- .whaleInfo p {
-  padding: 5px;
-}
-
- @media screen and (min-width: 601px) {
-  div.whaleInfo p {
-    font-size: 2vw;
-  }
-}
+//  @media screen and (min-width: 601px) {
+//   div.whaleInfo p {
+//     font-size: 2vw;
+//   }
+// }
 
 
-@media screen and (max-width: 600px) {
-  div.whaleInfo p {
-    font-size: 4vw;
-  }
-}
+// @media screen and (max-width: 600px) {
+//   div.whaleInfo p {
+//     font-size: 4vw;
+//   }
+// }
 
- .submarine{
-  height: 30%;
-  width: 30%;
-  position: absolute;
-  bottom: 50vw;
-  left: 12vw;
-  z-index: 9;
-  animation-duration: 3s;
-  animation-delay: 2s;
- }
+//  .SubmarineInfo {
+//    background-color: rgba(235, 235, 235, 0.50);
+//    color: #ffffff;
+//    height: auto;
+//    width: 40%;
+//    position: absolute;
+//    bottom: 225vw;
+//    right: 12vw;
+//    z-index: 9;
+//    border-radius: 5px;
+//  }
 
- .SubmarineInfo {
-   background-color: rgba(235, 235, 235, 0.50);
-   color: #ffffff;
-   height: auto;
-   width: 40%;
-   position: absolute;
-   bottom: 225vw;
-   right: 12vw;
-   z-index: 9;
-   border-radius: 5px;
- }
+//  .SubmarineInfo p {
+//    padding: 5px;
+//  }
 
- .SubmarineInfo p {
-   padding: 5px;
- }
-
- @media screen and (min-width: 601px) {
-  div.SubmarineInfo p {
-    font-size: 2vw;
-  }
-}
+//  @media screen and (min-width: 601px) {
+//   div.SubmarineInfo p {
+//     font-size: 2vw;
+//   }
+// }
 
 
-@media screen and (max-width: 600px) {
-  div.SubmarineInfo p {
-    font-size: 4vw;
-  }
-}
+// @media screen and (max-width: 600px) {
+//   div.SubmarineInfo p {
+//     font-size: 4vw;
+//   }
+// }
+
+/* Index page 2 with svg background */
+
