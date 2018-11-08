@@ -717,7 +717,7 @@
 
 <!--                                                                                        Submarine -->
 
-  <g id="submarine" class="animated fadeInUp ">
+  <g id="submarine" class="animated pulse infinite slower delay-2s">
     <path d="M788.555 7400.917h-193.87v-60.66l-12-20.22v-186.01c.18-10.53 2-10.11 8-10.11h4v-478.62l-10.09-6.06c1.8-52.14 5.04-101.12 14.12-137.32h10.09l14.12-62.6c2.46-7.33 6.03-9.75 10.09-10.1l121.05-24.23c7.91-1.9 12.11-2.02 14.12 6.06 28.1 61.8 52.19 120.16 56.49 161.56v640.34l-12.14 76.97h-12.15l-24.31 79h20.49c-.27 12.14-3.35 22.56-8.01 32z" fill="#58a16f" id="submarine_body_1_"/>
     <g id="rear_1_">
       <linearGradient id="SVGID_37_" gradientUnits="userSpaceOnUse" x1="327.64" y1="-4200.867" x2="327.64" y2="-3945.084" gradientTransform="translate(377 10606)">
