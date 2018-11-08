@@ -1,6 +1,7 @@
 <?xml-stylesheet type="text/css" href="../css/main.css"?>
 <?xml-stylesheet type="text/css" href="../css/animate.min.css"?>
 <svg id="OceansDepth" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 9082.558">
+<script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script><script>new WOW().init();</script>
   <style>
     .st1{fill:#feffe6}.st30{fill:none}.st31{fill:#fff}.st32{font-family:&apos;Futura-Medium&apos;}.st33{font-size:40px}.st40{opacity:.5}.st41{fill:#282f35}.st45{fill:#2b3245}.st55{fill:#2d333a}.st61{fill:#dbb788}.st68{fill:#2e3339}.st73{fill:#c79a6a}.st77{fill:#333c53}.st89{fill:#7e7f83}.st90{fill:#b1b2b4}.st91{fill:#2d3338}.st92{fill:#5a595a}.st93{fill:#6e6c74}.st94{fill:#929397}.st100{fill:#31373e}.st110{fill:#6d6e72}.st114{fill:#d2d6d3}.st119{fill:#e7e5e7}.st120{fill:#919296}.st122{fill:#575859}.st123{fill:#2d323a}.st124{fill:#fdfdfd}.st132{fill:#292f34}.st133{fill:#969699}.st134{fill:#35313a}.st135{fill:#636268}.st136{fill:#4f5254}.st137{fill:#a9a7a8}.st138{fill:#413e42}.st140{fill:#e2bf10}.st142{fill:#818284}.st143{fill:#28292e}.st144{fill:#484949}.st147{opacity:.5;fill:#fff;stroke:#fff;stroke-width:5;stroke-miterlimit:10;enable-background:new}.st178{font-size:96px}.st179{fill:#919190}
   </style>
@@ -11,7 +12,7 @@
       <stop offset="1" stop-color="#ffe9ce"/>
     </linearGradient>
     <path id="sky" fill="url(#sky_2_)" d="M0 0h1366v969H0z"/>
-    <circle id="sun" class="st1" cx="1114.5" cy="870.5" r="139.5"/>
+    <circle id="sun" class="st1 animated infinite bounce slow" cx="1114.5" cy="870.5" r="139.5"/>
     <linearGradient id="mountain_2_1_" gradientUnits="userSpaceOnUse" x1="473.543" y1="6798.493" x2="476.489" y2="6235.935" gradientTransform="matrix(1 0 0 -1 0 7168)">
       <stop offset="0" stop-color="#f19ca2"/>
       <stop offset=".67" stop-color="#f8d7d0"/>
@@ -76,7 +77,7 @@
         <use xlink:href="#SVGID_3_" overflow="visible"/>
       </clipPath>
       <g id="rays" clip-path="url(#SVGID_4_)">
-        <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-750.248" y1="6687.087" x2="-1482.373" y2="4292.416" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
+        <linearGradient class="animated flash infinite slow" id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-750.248" y1="6687.087" x2="-1482.373" y2="4292.416" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
           <stop offset="0" stop-color="#a8c2cc"/>
@@ -88,8 +89,8 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path opacity=".78" fill="url(#SVGID_5_)" d="M-445.89 3247.99l-121.97-50.629L187.39 102.882l121.97 50.629z"/>
-        <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-668.006" y1="6669.715" x2="-1395.38" y2="4290.582" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
+        <path opacity=".78" fill="url(#SVGID_5_)" class="animated flash infinite slower delay-5s" d="M-445.89 3247.99l-121.97-50.629L187.39 102.882l121.97 50.629z"/>
+        <linearGradient id="SVGID_6_" class="animated flash infinite slow" gradientUnits="userSpaceOnUse" x1="-668.006" y1="6669.715" x2="-1395.38" y2="4290.582" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
           <stop offset="0" stop-color="#a8c2cc"/>
@@ -101,7 +102,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path opacity=".9" fill="url(#SVGID_6_)" d="M-409.68 3263.028l-36.21-15.038L309.36 153.511l36.21 15.037z"/>
+        <path opacity=".9" fill="url(#SVGID_6_)" class="animated flash infinite slow delay-2s" d="M-409.68 3263.028l-36.21-15.038L309.36 153.511l36.21 15.037z"/>
         <linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="-614.686" y1="6668.142" x2="-1343.432" y2="4284.519" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -114,7 +115,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path opacity=".9" fill="url(#SVGID_7_)" d="M-348.69 3288.342l-60.99-25.314 755.25-3094.48 60.98 25.315z"/>
+        <path opacity=".9" fill="url(#SVGID_7_)" class="animated flash infinite slower" d="M-348.69 3288.342l-60.99-25.314 755.25-3094.48 60.98 25.315z"/>
         <linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="-383.459" y1="6642.968" x2="-1109.725" y2="4267.458" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -127,7 +128,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path opacity=".8" fill="url(#SVGID_8_)" d="M-155.25 3368.642l-16.2-6.73L583.79 267.433l16.2 6.729z"/>
+        <path opacity=".8" fill="url(#SVGID_8_)" class="animated flash infinite slower delay-5s" d="M-155.25 3368.642l-16.2-6.73L583.79 267.433l16.2 6.729z"/>
         <linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="-340.218" y1="6644.669" x2="-1068.965" y2="4261.045" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -140,7 +141,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path opacity=".89" fill="url(#SVGID_9_)" d="M-94.27 3393.956l-60.98-25.314 755.24-3094.48 60.98 25.315z"/>
+        <path opacity=".89" fill="url(#SVGID_9_)" class="animated flash infinite slow delay-2s" d="M-94.27 3393.956l-60.98-25.314 755.24-3094.48 60.98 25.315z"/>
         <linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="-217.962" y1="6646.045" x2="-952.146" y2="4244.639" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -153,7 +154,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path fill="url(#SVGID_10_)" d="M64.86 3460.027l-159.13-66.071L660.97 299.477l159.14 66.058z"/>
+        <path fill="url(#SVGID_10_)" class="animated flash infinite slower" d="M64.86 3460.027l-159.13-66.071L660.97 299.477l159.14 66.058z"/>
         <linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="-102.752" y1="6624.359" x2="-831.499" y2="4240.736" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -166,7 +167,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path fill="url(#SVGID_11_)" d="M125.85 3485.342l-60.99-25.315L820.11 365.535l60.98 25.327z"/>
+        <path fill="url(#SVGID_11_)" class="animated flash infinite slower delay-5s" d="M125.85 3485.342l-60.99-25.315L820.11 365.535l60.98 25.327z"/>
         <linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="-3.658" y1="6618.986" x2="-733.83" y2="4230.702" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -179,7 +180,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path opacity=".9" fill="url(#SVGID_12_)" d="M229.71 3528.458L143 3492.463l755.24-3094.48 86.72 35.996z"/>
+        <path opacity=".9" fill="url(#SVGID_12_)" class="animated flash infinite slow delay-2s" d="M229.71 3528.458L143 3492.463l755.24-3094.48 86.72 35.996z"/>
         <linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="183.089" y1="6622.543" x2="-556.056" y2="4204.908" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -192,7 +193,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path opacity=".89" fill="url(#SVGID_13_)" d="M478.42 3631.699l-248.71-103.241L984.96 433.979l248.7 103.241z"/>
+        <path opacity=".89" fill="url(#SVGID_13_)" class="animated flash infinite slower" d="M478.42 3631.699l-248.71-103.241L984.96 433.979l248.7 103.241z"/>
         <linearGradient id="SVGID_14_" gradientUnits="userSpaceOnUse" x1="395.476" y1="6584.047" x2="-334.327" y2="4196.97" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -205,7 +206,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path fill="url(#SVGID_14_)" d="M596.58 3680.75l-80.04-33.231L1271.78 553.04l80.04 33.231z"/>
+        <path fill="url(#SVGID_14_)" class="animated flash infinite slower delay-5s" d="M596.58 3680.75l-80.04-33.231L1271.78 553.04l80.04 33.231z"/>
         <linearGradient id="SVGID_15_" gradientUnits="userSpaceOnUse" x1="525.684" y1="6582.1" x2="-208.341" y2="4181.212" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -218,7 +219,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path fill="url(#SVGID_15_)" d="M752.85 3745.634l-156.27-64.884 755.24-3094.479 156.28 64.871z"/>
+        <path fill="url(#SVGID_15_)" class="animated flash infinite slow delay-2s" d="M752.85 3745.634l-156.27-64.884 755.24-3094.479 156.28 64.871z"/>
         <linearGradient id="SVGID_16_" gradientUnits="userSpaceOnUse" x1="653.704" y1="6562.651" x2="-76.415" y2="4174.539" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -231,7 +232,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path opacity=".85" fill="url(#SVGID_16_)" d="M838.61 3781.226l-85.76-35.592L1508.1 651.142l85.76 35.605z"/>
+        <path opacity=".85" fill="url(#SVGID_16_)" class="animated flash infinite slower" d="M838.61 3781.226l-85.76-35.592L1508.1 651.142l85.76 35.605z"/>
         <linearGradient id="SVGID_17_" gradientUnits="userSpaceOnUse" x1="798.377" y1="6454.019" x2="64.352" y2="4053.131" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -244,7 +245,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path fill="url(#SVGID_17_)" d="M973.85 3950.394l-156.27-64.884 755.24-3094.479 156.28 64.871z"/>
+        <path fill="url(#SVGID_17_)" class="animated flash infinite slower delay-5s" d="M973.85 3950.394l-156.27-64.884 755.24-3094.479 156.28 64.871z"/>
         <linearGradient id="SVGID_18_" gradientUnits="userSpaceOnUse" x1="930.302" y1="6962.727" x2="196.276" y2="4561.839" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -257,7 +258,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path fill="url(#SVGID_18_)" d="M1253.85 3505.661l-156.27-64.884 755.24-3094.479 156.28 64.871z"/>
+        <path fill="url(#SVGID_18_)" class="animated flash infinite slow delay-2s" d="M1253.85 3505.661l-156.27-64.884 755.24-3094.479 156.28 64.871z"/>
         <linearGradient id="SVGID_19_" gradientUnits="userSpaceOnUse" x1="-482.016" y1="6670.81" x2="-1217.203" y2="4266.123" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -270,7 +271,7 @@
           <stop offset="0" stop-color="#fff"/>
           <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <path fill="url(#SVGID_19_)" d="M-171.45 3361.912l-177.24-73.57L406.55 193.863l177.24 73.57z"/>
+        <path fill="url(#SVGID_19_)" class="animated flash infinite slower" d="M-171.45 3361.912l-177.24-73.57L406.55 193.863l177.24 73.57z"/>
         <linearGradient id="SVGID_20_" gradientUnits="userSpaceOnUse" x1="-62.178" y1="6615.606" x2="-788.498" y2="4239.923" gradientTransform="scale(1 -1) rotate(-17.656 -22600.804 -1798.072)">
           <stop offset="0" stop-color="#78a0b0"/>
           <stop offset="0" stop-color="#89acba"/>
@@ -391,7 +392,7 @@
   </g>
 
 <!--                                                                                        Scuba Diver 1 -->
-  <g id="ScubaDiver1" class="animated infinite pulse delay-10s">
+  <g id="ScubaDiver1" class="animated infinite pulse slow delay-5s">
     <g id="fins_1_">
       <path id="right_fin_1_" class="st41" d="M644.089 1572.569c16.38-6.74 32.46-12.53 47.81-15.94 10.65-1.96 20.77-5.56 30.17-11.38 8.52-5.61 15.12-6.01 19.35 0 .52.85.76 1.78.57 2.85-1.18 4.72-2.17 8.69-2.85 11.38-4.63-.76-8.8.01-12.52 2.28-11.95 10.67-25.09 18.41-39.84 22.2-11.18 4.57-20.41 8.35-25.04 10.25-1.65.55-3.46.36-5.69-1.71l-11.38-13.66c-3.32-2.4-3.17-4.45-.58-6.27z"/>
       <g id="stripes_1_">
@@ -716,7 +717,7 @@
 
 <!--                                                                                        Submarine -->
 
-  <g id="submarine" class="wow animated slideInDown ">
+  <g id="submarine" class="animated fadeInUp ">
     <path d="M788.555 7400.917h-193.87v-60.66l-12-20.22v-186.01c.18-10.53 2-10.11 8-10.11h4v-478.62l-10.09-6.06c1.8-52.14 5.04-101.12 14.12-137.32h10.09l14.12-62.6c2.46-7.33 6.03-9.75 10.09-10.1l121.05-24.23c7.91-1.9 12.11-2.02 14.12 6.06 28.1 61.8 52.19 120.16 56.49 161.56v640.34l-12.14 76.97h-12.15l-24.31 79h20.49c-.27 12.14-3.35 22.56-8.01 32z" fill="#58a16f" id="submarine_body_1_"/>
     <g id="rear_1_">
       <linearGradient id="SVGID_37_" gradientUnits="userSpaceOnUse" x1="327.64" y1="-4200.867" x2="327.64" y2="-3945.084" gradientTransform="translate(377 10606)">
@@ -1027,7 +1028,7 @@
 
 <!---                                                                                    BUBBLES 1 -->
   <g id="bubbles">
-    <g id="Bubbles1" class="wow animated infinite pulse delay-10s">
+    <g id="Bubbles1" class="animated infinite pulse delay-10s">
       <linearGradient id="SVGID_49_" gradientUnits="userSpaceOnUse" x1="396.587" y1="2221.976" x2="396.587" y2="2239.341">
         <stop offset="0" stop-color="#78a0b0"/>
         <stop offset="0" stop-color="#89acba"/>
@@ -1121,7 +1122,7 @@
       <circle cx="434.908" cy="1940.76" r="32.061" fill="url(#SVGID_55_)"/>
     </g>
 <!---                                                                                    BUBBLES 2 -->
-    <g id="Bubbles2" class="wow animated infinite pulse delay-8s">
+    <g id="Bubbles2" class="animated infinite pulse delay-8s">
       <linearGradient id="SVGID_56_" gradientUnits="userSpaceOnUse" x1="735.965" y1="3157.829" x2="735.965" y2="3174.65">
         <stop offset="0" stop-color="#78a0b0"/>
         <stop offset="0" stop-color="#89acba"/>
@@ -1228,7 +1229,7 @@
       <circle cx="694.073" cy="2704.953" r="33.482" fill="url(#SVGID_63_)"/>
     </g>
 <!---                                                                                    BUBBLES 3 -->
-    <g id="Bubbles3" class="wow animated infinite pulse delay-10s">
+    <g id="Bubbles3" class="animated infinite pulse delay-10s">
       <linearGradient id="SVGID_64_" gradientUnits="userSpaceOnUse" x1="439.58" y1="4373.099" x2="439.58" y2="4389.919">
         <stop offset="0" stop-color="#78a0b0"/>
         <stop offset="0" stop-color="#89acba"/>
@@ -1335,7 +1336,7 @@
       <circle cx="397.688" cy="3920.222" r="33.482" fill="url(#SVGID_71_)"/>
     </g>
 <!---                                                                                    BUBBLES 4 -->
-    <g id="Bubbles4" class="wow animated infinite pulse delay-8s">
+    <g id="Bubbles4" class="animated infinite pulse delay-8s">
       <linearGradient id="SVGID_72_" gradientUnits="userSpaceOnUse" x1="797.44" y1="5241.093" x2="797.44" y2="5258.459">
         <stop offset="0" stop-color="#78a0b0"/>
         <stop offset="0" stop-color="#89acba"/>
@@ -1429,13 +1430,13 @@
       <circle cx="835.76" cy="4959.878" r="32.061" fill="url(#SVGID_78_)"/>
     </g>
   </g>
-  <g id="Title">
+  <g id="Title" class="animated fadeInDown">
     <path class="st30" d="M60.099 336.163h1229.853V870H60.099z"/>
     <text transform="translate(164.042 415.333)">
       <tspan x="0" y="0" class="st31 st32 st178">The World Beneath The </tspan><tspan x="361.148" y="115.2" class="st31 st32 st178">Waves</tspan>
     </text>
   </g>
-  <g id="Subtitle_Paragraph">
+  <g id="Subtitle_Paragraph"  class="animated fadeInDown">
     <path class="st30" d="M35.551 597.689h1294.897V891H35.551z"/>
     <text transform="translate(55.705 630.677)">
       <tspan x="0" y="0" class="st179 st32 st33">The ocean is the lifeblood of Earth, covering more than 70 percent of </tspan><tspan x="31.387" y="48" class="st179 st32 st33">the planet&apos;s surface, driving weather, regulating temperature, and </tspan><tspan x="-8.223" y="96" class="st179 st32 st33">ultimately supporting all living organisms. More than eighty percent of </tspan><tspan x="131.738" y="144" class="st179 st32 st33">our ocean is unmapped, unobserved, and unexplored</tspan><tspan x="1110.508" y="144" class="st31 st32 st33">.</tspan>
@@ -1477,12 +1478,14 @@
       <tspan x="0" y="0" class="st31 st32 st33">Depth of the challenger </tspan><tspan x="26.279" y="48" class="st31 st32 st33">deep in the Mariana </tspan><tspan x="-15.049" y="96" class="st31 st32 st33">Trench, the deepest point </tspan><tspan x="1.807" y="144" class="st31 st32 st33">on earth. Humans have </tspan><tspan x="47.461" y="192" class="st31 st32 st33">reached it twice in </tspan><tspan x="-18.467" y="240" class="st31 st32 st33">purpose built deep diving </tspan><tspan x="2.881" y="288" class="st31 st32 st33">submarines. First time it </tspan><tspan x="12.314" y="336" class="st31 st32 st33">was done in 1960, by </tspan><tspan x="-16.094" y="384" class="st31 st32 st33">Jacques Piccard and Don </tspan><tspan x="149.551" y="432" class="st31 st32 st33">Walsh.</tspan><tspan x="43.926" y="528" class="st31 st32 st33">James Cameron, a </tspan><tspan x="-.029" y="576" class="st31 st32 st33">Canadian director, was </tspan><tspan x="-17.314" y="624" class="st31 st32 st33">the first person to make a </tspan><tspan x="-25.225" y="672" class="st31 st32 st33">solo submarine dive to the </tspan><tspan x="-11.133" y="720" class="st31 st32 st33">Mariana trench in 2012.</tspan>
     </text>
   </g>
+<!-- <script> new WOW().init();</script> -->
 
-
-
-       <script xlink:href="../js/wow.min.js"/>
-       <script xlink:href="../js/main.js"/>
+ <script type="text/ecmascript" xlink:href="../js/main.js"></script>
+       <script type="text/ecmascript" xlink:href="../js/wow.min.js"></script>
+      
+       <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
 
         <!-- <script src="../js/wow.min.js"></script>
         <script src="../js/main.js"></script> -->
 </svg>
+
