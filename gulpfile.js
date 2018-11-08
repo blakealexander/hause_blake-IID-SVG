@@ -23,4 +23,10 @@ gulp.task('animateCss', function () {
       .pipe(gulp.dest('./css'));
 });
 
-gulp.task('default',['sass', 'animateCss']);
+gulp.task('wowJs', function () {
+  return gulp.src('node_modules/wowjs/dist/wow.min.js')
+    .pipe(gulp.dest('./js'));
+});
+
+
+gulp.task('default',['wowJs', 'sass', 'animateCss']);

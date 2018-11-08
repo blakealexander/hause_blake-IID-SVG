@@ -1,78 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
 <style type="text/css">
-	.Drop_x0020_Shadow{fill:none;}
-	.Outer_x0020_Glow_x0020_5_x0020_pt{fill:none;}
-	.Blue_x0020_Neon{fill:none;stroke:#8AACDA;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;}
-	.Chrome_x0020_Highlight{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.3629;stroke-miterlimit:1;}
-	.Jive_GS{fill:#FFDD00;}
-	.Alyssa_GS{fill:#A6D0E4;}
 	.st0{display:none;}
-	.st1{fill:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_1_);}
 	.st2{fill:#818284;}
 	.st3{fill:#6D6E72;}
 	.st4{fill:#28292E;}
 	.st5{fill:#484949;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="6.123234e-17" y2="-1">
-	<stop  offset="0" style="stop-color:#656565"/>
-	<stop  offset="0.618" style="stop-color:#1B1B1B"/>
-	<stop  offset="0.6292" style="stop-color:#545454"/>
-	<stop  offset="0.9831" style="stop-color:#3E3E3E"/>
-</linearGradient>
-<g id="Layer_1" class="st0">
-	
-		<image style="display:inline;overflow:visible;" width="1006" height="676" xlink:href="Screen Shot 2018-10-28 at 12.02.47 PM.png"  transform="matrix(0.6292 0 0 0.6292 403 166)">
-	</image>
+<g class="st0">
 </g>
 <g id="body">
-	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="471.0667" y1="293.784" x2="824.0444" y2="497.5758">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="168.4138" y1="609.9828" x2="1288.6283" y2="-36.7735" gradientTransform="matrix(1 0 0 -1 0 770)">
 		<stop  offset="0" style="stop-color:#666666"/>
 		<stop  offset="0.8443" style="stop-color:#B9B9B9"/>
 		<stop  offset="0.8869" style="stop-color:#D0D0D0"/>
 		<stop  offset="0.9602" style="stop-color:#F2F2F2"/>
 		<stop  offset="1" style="stop-color:#FFFFFF"/>
 	</linearGradient>
-	<path class="st1" d="M418,394c3.98-2.53,7.7-4.9,11-7c7.91-11.1,13.22-22.12,14-33c0.71-2.3,0.09-3.99-2-5
-		c-5.32-3.45,10.4-2.5,24-2c30.56-21.83,64.29-40.45,104-53c5.79-2.32,10.71-5.43,14-10c0.11-3.48-0.89-6.15-3-8
-		c-0.53-1.88,0.35-2.94,3-3l29,13c10.82,3.46,26.4,4.94,43,6c51.2,7.98,99,28,139,63c33.78,30.14,48.29,55.34,49,77l4,19
-		c-5.04-0.2-9.03-3.22-12-9c-1.39-6.74-4.93-10.45-10-12c4.58,4.65,7.64,9.31,8,14c5.54,7.95,9.8,9.17,14,10c2.23,0.56,1.53,1.7,0,3
-		c-3.7,0.66-6.75,0.1-9-2c-6.15-4.18-11.38-6.28-16-7c-22.63-3.99-41.75-8.95-57-15l-31-11l-47-17l-96-35l-15-6
-		c-6.43-2.79-15.73-3.58-27-3c-27.97,1.85-54.99,1.22-81-2c-6.52,2.98-14.85,12.48-24,25C435.63,392.67,426.96,395.84,418,394z"/>
+	<path class="st1" d="M0,478.07c12.63-8.03,24.44-15.55,34.91-22.22c25.1-35.23,41.96-70.2,44.43-104.73
+		c2.25-7.3,0.29-12.66-6.35-15.87c-16.88-10.95,33.01-7.93,76.17-6.35c96.99-69.28,204.03-128.37,330.06-168.2
+		c18.38-7.36,33.99-17.23,44.43-31.74c0.35-11.04-2.82-19.52-9.52-25.39c-1.68-5.97,1.11-9.33,9.52-9.52l92.04,41.26
+		c34.34,10.98,83.78,15.68,136.47,19.04c162.49,25.33,314.19,88.86,441.13,199.94c107.21,95.65,153.25,175.63,155.51,244.37
+		l12.69,60.3c-15.99-0.63-28.66-10.22-38.08-28.56c-4.41-21.39-15.65-33.16-31.74-38.08c14.54,14.76,24.25,29.55,25.39,44.43
+		c17.58,25.23,31.1,29.1,44.43,31.74c7.08,1.78,4.86,5.4,0,9.52c-11.74,2.09-21.42,0.32-28.56-6.35
+		c-19.52-13.27-36.12-19.93-50.78-22.22c-71.82-12.66-132.5-28.4-180.9-47.6l-98.38-34.91l-149.16-53.95L549.04,401.9l-47.6-19.04
+		c-20.41-8.85-49.92-11.36-85.69-9.52c-88.77,5.87-174.52,3.87-257.06-6.35c-20.69,9.46-47.13,39.61-76.17,79.34
+		C55.95,473.84,28.44,483.9,0,478.07z"/>
 </g>
 <g id="fin">
-	<path class="st2" d="M745,409l12,8c-24.05,4.95-47.01,8.9-57,1c-1.87-0.62-3.05-2.58-4-5c2.48-4.59,8.8-6.81,20-6l11,2
-		C732.11,409.6,738.28,409.48,745,409z"/>
+	<path class="st2" d="M1037.78,525.67l38.08,25.39c-76.33,15.71-149.19,28.25-180.9,3.17c-5.93-1.97-9.68-8.19-12.69-15.87
+		c7.87-14.57,27.93-21.61,63.47-19.04l34.91,6.35C996.87,527.57,1016.45,527.19,1037.78,525.67z"/>
 </g>
 <g id="eye">
-	<path class="st3" d="M815.26,407.92c6.08,6.69,4.99,10.21-1.07,11.55c2.97,1.72,5.89,2.22,8.57-2.82
-		C822.13,411.49,819.03,409.6,815.26,407.92z"/>
-	<circle class="st4" cx="812.5" cy="417.5" r="4.5"/>
-	<path class="st3" d="M813,391c-19.02,5.78-20.93,13.66-11,23c-7.55-0.1-13.61-2.45-13-15C796,390,803.97,389.93,813,391z"/>
+	<path class="st3" d="M1260.76,522.24c19.3,21.23,15.84,32.4-3.4,36.66c9.43,5.46,18.69,7.05,27.2-8.95
+		C1282.56,533.57,1272.72,527.57,1260.76,522.24z"/>
+	<circle class="st4" cx="1252" cy="552.65" r="14.28"/>
+	<path class="st3" d="M1253.58,468.54c-60.36,18.34-66.42,43.35-34.91,72.99c-23.96-0.32-43.19-7.78-41.26-47.6
+		C1199.63,465.37,1224.93,465.15,1253.58,468.54z"/>
 </g>
 <g id="spot">
-	<circle class="st5" cx="753.5" cy="356.5" r="4.5"/>
-	<circle class="st5" cx="718" cy="358" r="3"/>
-	<circle class="st5" cx="689.5" cy="342.5" r="3.5"/>
-	<circle class="st5" cx="641.5" cy="317.5" r="4.5"/>
-	<circle class="st5" cx="689.5" cy="319.5" r="4.5"/>
-	<circle class="st5" cx="715.5" cy="319.5" r="4.5"/>
-	<circle class="st5" cx="728.5" cy="339.5" r="4.5"/>
-	<circle class="st5" cx="783.5" cy="370.5" r="5.5"/>
-	<circle class="st5" cx="742" cy="378" r="4"/>
-	<circle class="st5" cx="765.5" cy="399.5" r="2.5"/>
-	<circle class="st5" cx="700.5" cy="364.5" r="3.5"/>
-	<circle class="st5" cx="666.5" cy="310.5" r="5.5"/>
-	<circle class="st5" cx="623.5" cy="302.5" r="4.5"/>
-	<circle class="st5" cx="664" cy="336" r="3"/>
-	<circle class="st5" cx="601.5" cy="306.11" r="3.81"/>
-	<circle class="st5" cx="570.5" cy="305.5" r="4.5"/>
-	<circle class="st5" cx="539" cy="315" r="3"/>
-	<circle class="st5" cx="617" cy="324" r="4"/>
-	<circle class="st5" cx="591.5" cy="324.5" r="4.5"/>
-	<circle class="st5" cx="566.5" cy="322.5" r="2.5"/>
-	<circle class="st5" cx="641.5" cy="341.5" r="2.5"/>
+	<circle class="st5" cx="1064.75" cy="359.05" r="14.28"/>
+	<circle class="st5" cx="952.09" cy="363.81" r="9.52"/>
+	<circle class="st5" cx="861.64" cy="314.62" r="11.11"/>
+	<circle class="st5" cx="709.31" cy="235.28" r="14.28"/>
+	<circle class="st5" cx="861.64" cy="241.63" r="14.28"/>
+	<circle class="st5" cx="944.15" cy="241.63" r="14.28"/>
+	<circle class="st5" cx="985.41" cy="305.1" r="14.28"/>
+	<circle class="st5" cx="1159.96" cy="403.48" r="17.45"/>
+	<circle class="st5" cx="1028.26" cy="427.29" r="12.69"/>
+	<circle class="st5" cx="1102.84" cy="495.52" r="7.93"/>
+	<circle class="st5" cx="896.55" cy="384.44" r="11.11"/>
+	<circle class="st5" cx="788.65" cy="213.07" r="17.45"/>
+	<circle class="st5" cx="652.18" cy="187.68" r="14.28"/>
+	<circle class="st5" cx="780.71" cy="293.99" r="9.52"/>
+	<circle class="st5" cx="582.36" cy="199.13" r="12.09"/>
+	<circle class="st5" cx="483.98" cy="197.2" r="14.28"/>
+	<circle class="st5" cx="384.01" cy="227.35" r="9.52"/>
+	<circle class="st5" cx="631.55" cy="255.91" r="12.69"/>
+	<circle class="st5" cx="550.62" cy="257.5" r="14.28"/>
+	<circle class="st5" cx="471.28" cy="251.15" r="7.93"/>
+	<circle class="st5" cx="709.31" cy="311.45" r="7.93"/>
 </g>
 </svg>

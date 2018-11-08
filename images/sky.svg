@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="sky_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.Drop_x0020_Shadow{fill:none;}
+	.Outer_x0020_Glow_x0020_5_x0020_pt{fill:none;}
+	.Blue_x0020_Neon{fill:none;stroke:#8AACDA;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;}
+	.Chrome_x0020_Highlight{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.3629;stroke-miterlimit:1;}
+	.Jive_GS{fill:#FFDD00;}
+	.Alyssa_GS{fill:#A6D0E4;}
+	.st0{fill:url(#SVGID_2_);}
+	.st1{fill:#FEFFE6;}
+	.st2{opacity:0.5;fill:url(#mountain_2_1_);enable-background:new    ;}
+	.st3{fill:url(#mountain_1_1_);}
+	.st4{fill:#DDDDD7;}
+	.st5{fill:#E8E7DA;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="6.123234e-17" y2="-1">
+	<stop  offset="0" style="stop-color:#656565"/>
+	<stop  offset="0.618" style="stop-color:#1B1B1B"/>
+	<stop  offset="0.6292" style="stop-color:#545454"/>
+	<stop  offset="0.9831" style="stop-color:#3E3E3E"/>
+</linearGradient>
+<g id="sky">
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="957.1915" y1="1078.3673" x2="962.7931" y2="8.575" gradientTransform="matrix(1 0 0 -1 0 1082)">
+		<stop  offset="0" style="stop-color:#F19CA2"/>
+		<stop  offset="0.67" style="stop-color:#F8D7D0"/>
+		<stop  offset="1" style="stop-color:#FFE9CE"/>
+	</linearGradient>
+	<rect y="0" class="st0" width="1920" height="1080"/>
+	<circle class="st1" cx="1583.5" cy="914.73" r="196.08"/>
+	
+		<linearGradient id="mountain_2_1_" gradientUnits="userSpaceOnUse" x1="662.5655" y1="868.4439" x2="666.7057" y2="77.7322" gradientTransform="matrix(1 0 0 -1 0 1082)">
+		<stop  offset="0" style="stop-color:#F19CA2"/>
+		<stop  offset="0.67" style="stop-color:#F8D7D0"/>
+		<stop  offset="1" style="stop-color:#FFE9CE"/>
+	</linearGradient>
+	<polygon id="mountain_2" class="st2" points="355.39,944.31 499.97,511.55 586,399.05 586,299.78 668.73,207.14 776.27,455.3 
+		758.07,620.75 829.2,705.13 883.81,670.38 906.97,840.79 977.74,1011.2 	"/>
+	
+		<linearGradient id="mountain_1_1_" gradientUnits="userSpaceOnUse" x1="352.8351" y1="670.0604" x2="355.9826" y2="68.9305" gradientTransform="matrix(1 0 0 -1 0 1082)">
+		<stop  offset="0" style="stop-color:#F19CA2"/>
+		<stop  offset="0.67" style="stop-color:#F8D7D0"/>
+		<stop  offset="1" style="stop-color:#FFE9CE"/>
+	</linearGradient>
+	<polygon id="mountain_1" class="st3" points="40.54,947.95 138.93,700.57 227.48,758.2 313.22,463.03 404.58,406.81 469.24,475.68 
+		532.49,505.2 566.22,742.74 651.96,834.1 714.96,1017.7 -3.03,1001.87 	"/>
+	<polygon id="land_2" class="st1" points="129.31,939.03 420.26,939.03 556.6,903.89 766.03,967.14 923.46,1014.93 1041.52,1014.93 
+		1072.45,1075.37 502.7,1131.82 0,1071.66 0,954.52 	"/>
+	<polygon id="land_1" class="st4" points="59.03,1021.96 170.07,991.04 296.57,991.04 354.2,968.55 524.28,991.04 628.29,991.04 
+		812.42,1021.96 916.43,1059.91 417.45,1099.27 	"/>
+	<polygon id="land" class="st5" points="156.02,1085.21 292.23,1059.21 441.35,1047.26 581.9,1059.91 704.19,1047.26 780.2,1047.37 
+		843.52,1085.21 900.97,1110.51 156.02,1110.51 	"/>
+</g>
+</svg>
